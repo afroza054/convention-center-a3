@@ -89,6 +89,8 @@
                 </button>
               </div>
         </section>
+        
+
         <!-- 2 no part -->
         <section class="ms-3 me-3">
             <div class="row">
@@ -104,13 +106,28 @@
                         <p class="fs-5">
                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum molestias quo ad voluptatibus, sapiente exercitationem eius, commodi nobis enim accusantium fuga repellendus incidunt ipsum architecto nesciunt illum, rerum est sed! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium odio illo nobis ducimus at quas repellendus fugit tempore, ut, cupiditate eos quod animi. Cum magni dolorum voluptate odio tempora est.
                         </p>
-                        
                     </div>
-
+                    
                 </div>
-                
-
             </div>
+        </section>
+        <section>
+          <div>
+
+          <!-- TOAST -->
+        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+          <div class="toast-header">
+            <img src="./icons/Vector.svg" class="rounded me-2" alt="...">
+            <strong class="me-auto">Bootstrap</strong>
+            <small>11 mins ago</small>
+            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+          </div>
+          <div class="toast-body">
+            Hello, world! This is a toast message.
+          </div>
+        </div>
+
+      </div>
         </section>
         <!-- 3 no part -->
         <section id="packages">
@@ -147,7 +164,15 @@
                         </p>
                         <button class="btn btn-info btn-sm" type="button">Choose plan</button>
                     </div>
-                    <div class="col-md-3" style="border: 2px;">
+
+                    <div class="col-md-3 border border-primary rounded-5">
+                      <button type="button" class="position-relative ms-auto">
+                        
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                          Hot
+                          <!-- <span class="visually-hidden">unread messages</span> -->
+                        </span>
+                      </button>
                         <h3>$700</h3>
                         <h4>Wedding plus</h4>
                         <p>
@@ -162,11 +187,7 @@
                         </p>
                         <button class="btn btn-info btn-sm" type="button">Choose plan</button>
                        
-                          Inbox
-                          <span class="position-absolute top-0 start-80 translate-middle badge rounded-pill bg-danger">
-                            99+
-                            <span class="visually-hidden">unread messages</span>
-                          </span>
+                        
                         
                     </div>
                     <div class="col-md-3" style="border: 2px;">
