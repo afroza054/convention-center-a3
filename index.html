@@ -1,120 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
-    </style>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <title>Assignmet 3</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+  </style>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <title>Assignmet 3</title>
 </head>
+
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-info">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Convention Center</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#">Hall Room</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      More
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
-                  
-                </ul>
-                <!-- <form class="d-flex">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Convention Center</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Hall Room</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                More
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+
+          </ul>
+          <!-- <form class="d-flex">
                   <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                   <button class="btn btn-outline-success" type="submit">Search</button>
                 </form> -->
-              </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="pb-4">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/banner.png" class="d-block w-100" alt="banner">
+            <div class="carousel-caption d-none d-md-block">
+              <h4>The Perfect Venue for Your Wedding</h4>
+              <p>Some representative placeholder content for the first slide.</p>
+              <button class="btn btn-primary btn-sm">Book now</button>
             </div>
-          </nav> 
-    </header>
-    <main>
-        <section class="pb-4">
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="./images/banner.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h4>The Perfect Venue for Your Wedding</h4>
-                      <p>Some representative placeholder content for the first slide.</p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./images/banner.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h4>The Perfect Venue for Your Wedding</h4>
-                      <p>Some representative placeholder content for the second slide.</p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./images/banner.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h4>The Perfect Venue for Your Wedding</h4>
-                      <p>Some representative placeholder content for the third slide.</p>
-                    </div>
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-        </section>
-        
+          </div>
+          <div class="carousel-item">
+            <img src="./images/banner.png" class="d-block w-100" alt="banner">
+            <div class="carousel-caption d-none d-md-block">
+              <h4>The Perfect Venue for Your Wedding</h4>
+              <p>Some representative placeholder content for the second slide.</p>
+              <button class="btn btn-primary btn-sm">Book now</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/banner.png" class="d-block w-100" alt="banner">
+            <div class="carousel-caption d-none d-md-block">
+              <h4>The Perfect Venue for Your Wedding</h4>
+              <p>Some representative placeholder content for the third slide.</p>
+              <button class="btn btn-primary btn-sm">Book now</button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
 
-        <!-- 2 no part -->
-        <section class="ms-3 me-3">
-            <div class="row">
-                <div class="col-sm-6">
-                   <div class="d-flex justify-content-center allign-items-center">
-                        <img src="./images/wedding.png" alt="wed">
-                   </div>
-                     
-                </div>
-                <div class="col-sm-6">
-                    <div>
-                        <h4 class="display-4 fw-bold text-blue">Why We Are Different</h4>
-                        <p class="fs-5">
-                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum molestias quo ad voluptatibus, sapiente exercitationem eius, commodi nobis enim accusantium fuga repellendus incidunt ipsum architecto nesciunt illum, rerum est sed! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium odio illo nobis ducimus at quas repellendus fugit tempore, ut, cupiditate eos quod animi. Cum magni dolorum voluptate odio tempora est.
-                        </p>
-                    </div>
-                    
-                </div>
-            </div>
-        </section>
-        <section>
+
+    <!-- 2 no part -->
+    <section class="ms-3 me-3">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="d-flex justify-content-center allign-items-center">
+            <img src="./images/wedding.png" alt="wed">
+          </div>
+
+        </div>
+        <div class="col-sm-6">
           <div>
+            <h4 class="display-4 fw-bold text-blue">Why We Are Different</h4>
+            <p class="fs-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum molestias quo ad voluptatibus, sapiente
+              exercitationem eius, commodi nobis enim accusantium fuga repellendus incidunt ipsum architecto nesciunt
+              illum, rerum est sed! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium odio illo
+              nobis ducimus at quas repellendus fugit tempore, ut, cupiditate eos quod animi. Cum magni dolorum
+              voluptate odio tempora est.
+            </p>
+            <button class="btn btn-success btn-sm" type="button">Explore Our Site</button>
+          </div>
 
-          <!-- TOAST -->
+        </div>
+      </div>
+    </section>
+    <section>
+      <div>
+
+        <!-- TOAST -->
         <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
           <div class="toast-header">
             <img src="./icons/Vector.svg" class="rounded me-2" alt="...">
@@ -128,207 +148,240 @@
         </div>
 
       </div>
-        </section>
-        <!-- 3 no part -->
-        <section id="packages">
-            <div class="container p-3">
-                <h4 class="d-flex justify-content-center">Our Packages</h4>
-                <div class="row">
-                    <div class="col-md-3">
-                        <h3>$300</h3>
-                        <h4>Business fair</h4>
-                        <p>
-                            For most of the event book fair, craft event
-                            <ul>
-                                <li>Limited access</li>
-                                <li>Security facility</li>
-                                <li>Service</li>
-                                <li>per day bill</li>
-                                <li>Manage Occasion</li>
-                            </ul>
-                        </p>
-                        <button class="btn btn-info btn-sm" type="button">Choose plan</button>
-                    </div>
-                    <div class="col-md-3">
-                        <h3>$500</h3>
-                        <h4>Wedding fair</h4>
-                        <p>
-                            For most of the event book fair, craft event
-                            <ul>
-                                <li>Limited access</li>
-                                <li>Security facility</li>
-                                <li>Service</li>
-                                <li>per day bill</li>
-                                <li>Manage Occasion</li>
-                            </ul>
-                        </p>
-                        <button class="btn btn-info btn-sm" type="button">Choose plan</button>
-                    </div>
+    </section>
+    <!-- 3 no part -->
+    <section id="packages">
+      <div class="container p-3">
+        <h4 class="d-flex justify-content-center">Our Packages</h4>
+        <div class="row">
+          <div class="col-md-3">
+            <h3>$300</h3>
+            <h4>Business fair</h4>
+            <p>
+              For most of the event book fair, craft event
+            <ul>
+              <li>Limited access</li>
+              <li>Security facility</li>
+              <li>Service</li>
+              <li>per day bill</li>
+              <li>Manage Occasion</li>
+            </ul>
+            </p>
+            <button class="btn btn-info btn-sm" type="button">Choose plan</button>
+          </div>
+          <div class="col-md-3">
+            <h3>$500</h3>
+            <h4>Wedding fair</h4>
+            <p>
+              For most of the event book fair, craft event
+            <ul>
+              <li>Limited access</li>
+              <li>Security facility</li>
+              <li>Service</li>
+              <li>per day bill</li>
+              <li>Manage Occasion</li>
+            </ul>
+            </p>
+            <button class="btn btn-info btn-sm" type="button">Choose plan</button>
+          </div>
 
-                    <div class="col-md-3 border border-primary rounded-5">
-                      <button type="button" class="position-relative ms-auto">
-                        
-                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-                          Hot
-                          <!-- <span class="visually-hidden">unread messages</span> -->
-                        </span>
-                      </button>
-                        <h3>$700</h3>
-                        <h4>Wedding plus</h4>
-                        <p>
-                            For most of the event book fair, craft event
-                            <ul>
-                                <li>Limited access</li>
-                                <li>Security facility</li>
-                                <li>Service</li>
-                                <li>per day bill</li>
-                                <li>Manage Occasion</li>
-                            </ul>
-                        </p>
-                        <button class="btn btn-info btn-sm" type="button">Choose plan</button>
-                       
-                    </div>
-                    <div class="col-md-3">
-                        <h3>$900</h3>
-                        <h4>Corporate Event</h4>
-                        <p>
-                            For most of the event book fair, craft event
-                            <ul>
-                                <li>Limited access</li>
-                                <li>Security facility</li>
-                                <li>Service</li>
-                                <li>per day bill</li>
-                                <li>Manage Occasion</li>
-                            </ul>
-                        </p>
-                        <button class="btn btn-info btn-sm" type="button">Choose plan</button>
-                    </div>
-                </div>
-            </div>
+          <div class="col-md-3 border border-primary pb-2" style="background-color: azure;">
+            <button type="button" class="position-relative ms-auto">
 
-        </section>
-<!-- 4 no part -->
-        <section class="d-flex justify-content-center allign-items-center">
-            
-          <div class="row">
-              <h3 class="d-flex justify-content-center">Happy Clients Say</h3>
-              <div class="card" style="width: 18rem;">
-                  <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                Hot
+                <!-- <span class="visually-hidden">unread messages</span> -->
+              </span>
+            </button>
+            <h3>$700</h3>
+            <h4>Wedding plus</h4>
+            <p>
+              For most of the event book fair, craft event
+            <ul>
+              <li>Limited access</li>
+              <li>Security facility</li>
+              <li>Service</li>
+              <li>per day bill</li>
+              <li>Manage Occasion</li>
+            </ul>
+            </p>
+            <button class="btn btn-info btn-sm" type="button">Choose plan</button>
+
+          </div>
+          <div class="col-md-3">
+            <h3>$900</h3>
+            <h4>Corporate Event</h4>
+            <p>
+              For most of the event book fair, craft event
+            <ul>
+              <li>Limited access</li>
+              <li>Security facility</li>
+              <li>Service</li>
+              <li>per day bill</li>
+              <li>Manage Occasion</li>
+            </ul>
+            </p>
+            <button class="btn btn-info btn-sm" type="button">Choose plan</button>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- 4 no part -->
+    <section class="d-flex justify-content-center allign-items-center">
+
+      <div class="row">
+        <h3 class="d-flex justify-content-center">Happy Clients Say</h3>
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div>
+          <img src="./images/person 1.png" class="card-img-bottom" width="70px" alt="p1">
+          <h6 class="d-flex justify-content-center">Banker</h6>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div>
+          <img src="./images/person 2.png" class="card-img-bottom" width="70px" alt="p1">
+          <h6 class="d-flex justify-content-center">Banker</h6>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div>
+          <img src="./images/person 3.png" class="card-img-bottom" width="70px" alt="p1">
+          <h6 class="d-flex justify-content-center">Banker</h6>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <!-- 5 no part -->
+    <section>
+      <div class="container p-3">
+        <h3 class="d-flex justify-content-center">Frequently Asked question</h3>
+        <div class="row">
+          <div class="col-md-6" style="border: 2px;">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                    aria-expanded="true" aria-controls="collapseOne">
+                    Accordion Item #1
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse
+                    plugin adds the appropriate classes that we use to style each element. These classes control the
+                    overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of
+                    this with custom CSS or overriding our default variables. It's also worth noting that just about any
+                    HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
                   </div>
-                  <img src="./images/person 1.png" class="card-img-bottom" width="70px" alt="p1">
-                  <h6 class="d-flex justify-content-center">Banker</h6>
-                </div>
-             
-              <div class="card" style="width: 18rem;">
-                  <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  </div>
-                  <img src="./images/person 2.png" class="card-img-bottom" width="70px" alt="p1">
-                  <h6 class="d-flex justify-content-center">Banker</h6>
-                </div>
-              
-              <div class="card" style="width: 18rem;">
-                  <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  </div>
-                  <img src="./images/person 3.png" class="card-img-bottom" width="70px" alt="p1">
-                  <h6 class="d-flex justify-content-center">Banker</h6>
                 </div>
               </div>
-          </div>
-      </section>
-
-        <!-- 5 no part -->
-        <section>
-          <div class="container p-3">
-            <h3 class="d-flex justify-content-center">Frequently Asked question</h3>
-            <div class="row">
-                <div class="col-md-6" style="border: 2px;">
-                  <div class="accordion" id="accordionExample">
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                          Accordion Item #1
-                        </button>
-                      </h2>
-                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                        </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                          Accordion Item #2
-                        </button>
-                      </h2>
-                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                        </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                          Accordion Item #3
-                        </button>
-                      </h2>
-                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                        </div>
-                      </div>
-                    </div>
-                    
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingFour">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                          Accordion Item #4
-                        </button>
-                      </h2>
-                      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                        </div>
-                      </div>
-                    </div>
-
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Accordion Item #2
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the
+                    collapse plugin adds the appropriate classes that we use to style each element. These classes
+                    control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                    modify any of this with custom CSS or overriding our default variables. It's also worth noting that
+                    just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit
+                    overflow.
                   </div>
                 </div>
-                <div class="col-md-6" style="border: 2px;">
-                  <img src="./images/people.png" alt="People">
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Accordion Item #3
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
+                    collapse plugin adds the appropriate classes that we use to style each element. These classes
+                    control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                    modify any of this with custom CSS or overriding our default variables. It's also worth noting that
+                    just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit
+                    overflow.
+                  </div>
                 </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    Accordion Item #4
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
+                    collapse plugin adds the appropriate classes that we use to style each element. These classes
+                    control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                    modify any of this with custom CSS or overriding our default variables. It's also worth noting that
+                    just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit
+                    overflow.
+                  </div>
+                </div>
+              </div>
+
             </div>
           </div>
-        </section>
-        
-        
-    </main>
-    <footer>
-        <div class="d-flex flex-column justify-content-center allign-items-center">
-        <div class="row">
-            <div class="col-md-6 pt-4 ps-4">
-                <h5 class="text-white">@2020 All Rights are reserved</h5>
-            </div>
-            <div class="col-md-6 d-grid gap-4 ps-5">
-                <h6 class="text-white">Get the App</h6>
-                <a href="https://play.google.com/store/apps">
-                    <img src="./images/google-play-app-store.png" alt="google" width="80px">
-                </a>
-                <a href="https://play.google.com/store/apps">
-                    <img src="./images/app.png" alt="app" width="80px">
-                </a>
-            </div>
-
+          <div class="col-md-6" style="border: 2px;">
+            <img src="./images/people.png" alt="People">
+          </div>
         </div>
+      </div>
+    </section>
+
+
+  </main>
+  <footer>
+    <div class="d-flex flex-column justify-content-center allign-items-center">
+      <div class="row">
+        <div class="col-md-6 pt-4 ps-4">
+          <h6 class="text-white">@2020 All Rights are reserved</h6>
+        </div>
+        <div class="col-md-6 d-grid gap-4 ps-5">
+          <h6 class="text-white">Get the App</h6>
+          <a href="https://play.google.com/store/apps">
+            <img src="./images/google-play-app-store.png" alt="google" width="80px">
+          </a>
+          <a href="https://play.google.com/store/apps">
+            <img src="./images/app.png" alt="app" width="80px">
+          </a>
+        </div>
+
+      </div>
     </div>
-    </footer>
+  </footer>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
 
 </body>
+
 </html>
